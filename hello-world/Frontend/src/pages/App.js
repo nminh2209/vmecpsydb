@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import Home from "./pages/Home";
 import Patients from "./pages/Patients";
-import Assessments from "./pages/Assessments";
+import Assessments from "./pages/Assessment";
 import Navbar from "./components/Navbar";
 
 function App() {
