@@ -1,0 +1,39 @@
+/* src/styles/PatientTest.css */
+.patient-test-container {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .patient-test-container h2 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .patient-test-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .patient-test-container .question {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .patient-test-container .question p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .patient-test-container .question label {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: #555;
+  }
+  
+  .patient-test-container button {
+    align-self: flex-start;
+  }
+  

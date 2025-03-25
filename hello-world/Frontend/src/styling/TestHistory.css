@@ -1,0 +1,30 @@
+/* src/styles/TestHistory.css */
+.test-history-container {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 1rem;
+  }
+  
+  .test-history-container h4 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .test-history-item {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+  }
+  
+  .test-history-item p {
+    margin: 0.25rem 0;
+  }
+  
+  .test-history-item .info {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 4px;
+  }
+  

@@ -1,0 +1,62 @@
+/* src/styles/DoctorLogin.css */
+.doctor-login-container {
+    max-width: 400px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .doctor-login-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  /* Form Container */
+  .doctor-login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Adds consistent spacing between form elements */
+  }
+  
+  .doctor-login-container label {
+    color: #34495e;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+  }
+  
+  .doctor-login-container .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Inputs */
+  .doctor-login-container input[type="email"],
+  .doctor-login-container input[type="password"] {
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  /* Button */
+  .doctor-login-container button {
+    padding: 12px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 0.5rem;
+  }
+  
+  .doctor-login-container button:hover {
+    background-color: #219150;
+  }
+  
